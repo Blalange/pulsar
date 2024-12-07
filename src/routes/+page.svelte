@@ -1,5 +1,6 @@
 <script lang="ts">
 	import Logo from '$lib/components/logo.svelte';
+  import * as m from '$lib/paraglide/messages.js';
 </script>
 
 <div
@@ -19,7 +20,7 @@
 		<input
 			id="nebula-input"
 			class="roboto h-14 w-10/12 rounded-b-2xl rounded-t-2xl border border-input-border-color bg-input p-2 text-center font-roboto text-xl text-input-text transition-all duration-300 placeholder:text-input-text focus:outline-none md:w-3/12"
-			placeholder="yipee"
+			placeholder={m.home_placeholder()}
 		/>
 		<div
 			id="omnibox"
