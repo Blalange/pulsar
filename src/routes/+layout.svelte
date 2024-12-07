@@ -5,6 +5,7 @@
 	import { i18n } from '$lib/i18n';
 	import { ParaglideJS } from '@inlang/paraglide-sveltekit';
 	import { onMount } from 'svelte';
+	import BgLines from '../lib/components/bgLines.svelte';
 	let { children } = $props();
 
 	onMount(() => {
@@ -40,8 +41,13 @@
 </svelte:head>
 
 <ParaglideJS {i18n}>
-	<Header />
-	<div id="root" class="">
-		{@render children()}
+	<div class="flex min-h-screen flex-col">
+		<Header />
+		<div class="absolute top-0 left-0 right-0 bottom-0 overflow-hidden pointer-events-none">
+			<BgLines />
+		</div>
+		<main id="main" class="flex-grow bg-primary">
+			{@render children()}
+		</main>
 	</div>
 </ParaglideJS>

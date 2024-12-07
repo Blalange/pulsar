@@ -26,29 +26,32 @@
 	--text-color: #ffffff;
 }
 
-:root[data-theme='pulsar'] #contentStart {
+/* :root[data-theme='pulsar'] #root {
 	background-image: url("https://blalange.org/img/favicon.png");
     background-blend-mode: overlay;
-}
+} */
 
 :root[data-theme='nebula'] {
-    --background-primary: #191724;
+	--logo-color: #7967dd;
+	--logo-text: #7967dd;
+	--text-color: #ffffff;
     --background-lighter: #16121f;
-    --navbar-color: #26233a;
-    --navbar-height: 60px;
-    --navbar-text-color: #7967dd;
-    --navbar-link-color: #e0def4;
-    --navbar-link-hover-color: gray;
-    --navbar-font: "Roboto";
-    --input-text-color: #e0def4;
-    --input-placeholder-color: white;
+    --background-primary: #191724;
+    --border-color: #16121f;
+    --dropdown-option-hover-color: #312a49;
     --input-background-color: #1f1d2e;
     --input-border-color: #eb6f92;
     --input-border-size: 1.3px;
+    --input-placeholder-color: white;
+    --input-text-color: #e0def4;
+    --navbar-color: #26233a;
+    --navbar-font: "Roboto";
+    --navbar-height: 60px;
+    --navbar-link-color: #e0def4;
+    --navbar-link-hover-color: gray;
     --navbar-logo-filter: none;
-    --dropdown-option-hover-color: #312a49;
+    --navbar-text-color: #7967dd;
     --tab-color: var(--black);
-    --border-color: #16121f;
 }
 
 :root[data-theme='mocha-sapphire'] {
