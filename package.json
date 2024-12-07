@@ -35,6 +35,7 @@
 		"vite": "^6.0.0"
 	},
 	"dependencies": {
-		"@inlang/paraglide-sveltekit": "^0.11.1"
+		"@inlang/paraglide-sveltekit": "^0.11.1",
+		"iconify-icon": "^2.2.0"
 	}
 }

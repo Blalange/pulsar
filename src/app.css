@@ -1,3 +1,112 @@
 @import 'tailwindcss/base';
 @import 'tailwindcss/components';
 @import 'tailwindcss/utilities';
+
+/** Themes */
+:root[data-theme='pulsar'] {
+	--background-lighter: #16121f;
+	--background-primary: #192127;
+	--border-color: #16121f;
+	--dropdown-option-hover-color: #312a49;
+	--font-navbar: 'Roboto';
+	--input-background-color: #1f1d2e;
+	--input-border-color: #1470E9;
+	--input-border-size: 1.3px;
+	--input-placeholder-color: white;
+	--input-text-color: #e0def4;
+	--logo-color: #ffffff;
+	--logo-text: #ffffff;
+	--navbar-color: #2a3d4a;
+	--navbar-height: 60px;
+	--navbar-link-color: #e0def4;
+	--navbar-link-hover-color: gray;
+	--navbar-logo-filter: none;
+	--navbar-text-color: #ffffff;
+	--tab-color: var(--black);
+	--text-color: #ffffff;
+}
+
+:root[data-theme='pulsar'] #contentStart {
+	background-image: url("https://blalange.org/img/favicon.png");
+    background-blend-mode: overlay;
+}
+
+:root[data-theme='nebula'] {
+    --background-primary: #191724;
+    --background-lighter: #16121f;
+    --navbar-color: #26233a;
+    --navbar-height: 60px;
+    --navbar-text-color: #7967dd;
+    --navbar-link-color: #e0def4;
+    --navbar-link-hover-color: gray;
+    --navbar-font: "Roboto";
+    --input-text-color: #e0def4;
+    --input-placeholder-color: white;
+    --input-background-color: #1f1d2e;
+    --input-border-color: #eb6f92;
+    --input-border-size: 1.3px;
+    --navbar-logo-filter: none;
+    --dropdown-option-hover-color: #312a49;
+    --tab-color: var(--black);
+    --border-color: #16121f;
+}
+
+:root[data-theme='mocha-sapphire'] {
+	--background-primary: #1e1e2e;
+	--background-lighter: #45475a;
+	--navbar-color: #11111b;
+	--navbar-height: 60px;
+	--navbar-text-color: #7967dd;
+	--navbar-link-color: #89b4fa;
+	--navbar-link-hover-color: #b4befe;
+	--font-navbar: 'Roboto';
+	--input-text-color: #e0def4;
+	--input-placeholder-color: white;
+	--input-background-color: #45475a;
+	--input-border-color: #74c7ec;
+	--input-border-size: 1.3px;
+	--navbar-logo-filter: none;
+	--dropdown-option-hover-color: #74c7ec;
+	--tab-color: var(--black);
+	--border-color: #74c7ec;
+}
+:root[data-theme='mocha-lavender'] {
+	--bg-primary: #1e1e2e;
+	--bg-lighter: #45475a;
+	--navbar-color: #11111b;
+	--navbar-height: 60px;
+	--navbar-text-color: #7967dd;
+	--navbar-link-color: #89b4fa;
+	--navbar-link-hover-color: #b4befe;
+	--font-navbar: 'Roboto';
+	--input-text-color: #e0def4;
+	--input-placeholder-color: white;
+	--input-background-color: #45475a;
+	--input-border-color: #b4befe;
+	--input-border-size: 1.3px;
+	--navbar-logo-filter: none;
+	--dropdown-option-hover-color: #b4befe;
+	--tab-color: var(--black);
+	--border-color: #b4befe;
+}
+/** End themes */
+
+:root {
+	--background-primary: #1e1e2e;
+	--background-lighter: #45475a;
+	--navbar-color: #11111b;
+	--navbar-height: 60px;
+	--navbar-text-color: #7967dd;
+	--navbar-link-color: #89b4fa;
+	--navbar-link-hover-color: #b4befe;
+	--font-navbar: 'Roboto';
+	--input-text-color: #e0def4;
+	--input-placeholder-color: white;
+	--input-background-color: #45475a;
+	--input-border-color: #b4befe;
+	--input-border-size: 1.3px;
+	--navbar-logo-filter: none;
+	--dropdown-option-hover-color: #b4befe;
+	--tab-color: var(--black);
+	--border-color: #b4befe;
+}
